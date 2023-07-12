@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    
+}
+.container{
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black
+}
+.main{
+    background-color:darkgray;
+    padding: 25px;
+    width: 25%;
+    height: 45vh;
+    border-radius: 10px;
+ 
+
+}
+h1{
+    color: white;
+}
+input[type=text]{
+    cursor: pointer;
+    text-align: right;
+    background-color:darkgrey;
+    padding: 35px 45px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: black;
+    opacity: 0.5;
+    font-size:25px;
+}
+input[type=text]::placeholder{
+    color: black;
+    opacity: 0.5;
+    font-size:25px;
+}
+button{
+    box-shadow: 8px 8px 15px rgb(87, 81, 81);
+    cursor: pointer;
+    background: transparent;
+    /* background-color: rgba(100, 91, 91, 0.384); */
+    color: black;
+    width:22%;
+    border: none;
+    /* outline: 0px; */
+    border-radius: 50%;
+    padding: 5px 25px;
+    margin: 2.8px;
+
+}
+.Green :nth-child(1){
+    background-color: rgb(165, 41, 41);
+}
+.Green :nth-child(2){
+    background-color: rgb(165, 41, 41);
+}
+
+@media (max-width: 768px) {
+    .main {
+      width: 50%;
+    }
+    
+    input[type=text] {
+      font-size: 20px;
+    }
+    
+    button {
+      padding: 4px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main {
+      width: 75%;
+    }
+    
+    input[type=text] {
+      font-size: 18px;
+    }
+    
+    button {
+      padding: 3px 12px;
+    }
+  }
