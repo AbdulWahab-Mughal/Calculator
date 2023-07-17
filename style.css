@@ -11,9 +11,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background:linear-gradient(rgba(61, 61, 82, 0.8),rgba(179, 135, 102, 0.603),rgba(144,95,76,0.2));
 }
 .main {
+  border: 2px solid rgba(61, 61, 82, 0.8);
   background-color: darkgray;
   padding: 25px;
   width: 25%;
@@ -60,15 +61,17 @@ input[type="text"]::placeholder {
 }
 
 .button-line {
+  column-gap: 10px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 45px;
   width: 100%;
   margin-top: 4px;
+  
 }
 .button-line button {
-  border-radius: 50%;
+  border-radius: 5px;
   box-shadow: 8px 8px 15px rgb(87, 81, 81);
   cursor: pointer;
   width: 80px;
@@ -91,6 +94,7 @@ input[type="text"]::placeholder {
 
   .button-line button{
     width: 60px;
+    border-radius: 50%;
   }
 
   /* button {
@@ -114,6 +118,7 @@ input[type="text"]::placeholder {
 
   .button-line button{
     width: 60px;
+    border-radius: 50%;
   }
 
   /* button {
@@ -137,6 +142,7 @@ input[type="text"]::placeholder {
 
   .button-line button{
     width: 60px;
+    border-radius: 50%;
   }
 
   /* button {
