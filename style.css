@@ -77,6 +77,16 @@ input[type="text"]::placeholder {
   width: 80px;
   height: 95%;
 }
+.logic{
+  font-size: 35px;
+  line-height: 55px;
+  
+}
+.logic1{
+  font-size: 25px;
+  line-height: 45px;
+  
+}
 
 @media screen and (min-width: 200px) and (max-width: 450px) {
   .main {
